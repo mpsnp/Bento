@@ -1,6 +1,4 @@
 import UIKit
-import ReactiveSwift
-import Bento
 
 open class BoxSizeCachingTableView: SizeCachingTableView {
     public typealias Layout = BentoTableView.Layout

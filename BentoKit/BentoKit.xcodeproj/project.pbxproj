@@ -20,7 +20,6 @@
 		58801195216271DB0084EE07 /* TitledDescriptionLegacySnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880118A216271DA0084EE07 /* TitledDescriptionLegacySnapshotTests.swift */; };
 		5880119E216272C30084EE07 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880119D216272C30084EE07 /* Device.swift */; };
 		588011A02162740C0084EE07 /* FBSnapshotTestCaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880119F2162740C0084EE07 /* FBSnapshotTestCaseExtensions.swift */; };
-		65E4D8B3225D006300CA7CB3 /* BoxSizeCachingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4D8B2225D006300CA7CB3 /* BoxSizeCachingTableView.swift */; };
 		74CECF3722675C2E00EC6927 /* Bool+Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CECF3222675C2D00EC6927 /* Bool+Assertions.swift */; };
 		74CECF3822675C2E00EC6927 /* NSLayoutConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CECF3322675C2E00EC6927 /* NSLayoutConstraintExtensions.swift */; };
 		74CECF3922675C2E00EC6927 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CECF3422675C2E00EC6927 /* UIViewExtensions.swift */; };
@@ -69,7 +68,6 @@
 		588011A121627D520084EE07 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		588011A321627D570084EE07 /* ReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		639430F94D2A3AB0B5FBBFF0 /* Pods_BentoKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BentoKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65E4D8B2225D006300CA7CB3 /* BoxSizeCachingTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxSizeCachingTableView.swift; sourceTree = "<group>"; };
 		7468960822675DDD00363024 /* BentoKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = BentoKit.podspec; path = ../BentoKit.podspec; sourceTree = "<group>"; };
 		74CECF3222675C2D00EC6927 /* Bool+Assertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bool+Assertions.swift"; path = "../../Common/Bool+Assertions.swift"; sourceTree = "<group>"; };
 		74CECF3322675C2E00EC6927 /* NSLayoutConstraintExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraintExtensions.swift; path = ../../Common/NSLayoutConstraintExtensions.swift; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		580B613E215D339600A69E87 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				65E4D8B2225D006300CA7CB3 /* BoxSizeCachingTableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -414,7 +411,6 @@
 				580B6165215E3C1D00A69E87 /* NodeConstruction.swift in Sources */,
 				74CECF3922675C2E00EC6927 /* UIViewExtensions.swift in Sources */,
 				587208EE2164DA4400C8E6DF /* DeleteAction.swift in Sources */,
-				65E4D8B3225D006300CA7CB3 /* BoxSizeCachingTableView.swift in Sources */,
 				A6EC2DB0218B28AA002B128F /* BoxViewModel.swift in Sources */,
 				74CECF3722675C2E00EC6927 /* Bool+Assertions.swift in Sources */,
 				A6EC2DB2218B28AA002B128F /* BoxRenderer.swift in Sources */,
