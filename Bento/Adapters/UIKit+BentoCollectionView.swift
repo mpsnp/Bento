@@ -1,3 +1,5 @@
+import UIKit
+
 extension UITableView: BentoCollectionView {
     func indexPath(for cell: TableViewContainerCell) -> IndexPath? {
         return indexPath(for: cell as UITableViewCell)

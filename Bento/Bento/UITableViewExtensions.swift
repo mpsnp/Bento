@@ -1,3 +1,5 @@
+import UIKit
+
 extension UITableView {
     public func prepareForBoxRendering<SectionID: Hashable, ItemID: Hashable>(
         sectionIdType: SectionID.Type,

@@ -1,3 +1,5 @@
+import UIKit
+
 protocol BentoReusableView: AnyObject {
     var containedView: UIView? { get set }
     var contentView: UIView { get }

@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIView {
+public extension UIView {
     func add(to container: UIView) -> Self {
         container.addSubview(self)
         return self
@@ -132,7 +132,7 @@ extension UIView {
     }
 }
 
-func stack(_ axis: NSLayoutConstraint.Axis,
+public func stack(_ axis: NSLayoutConstraint.Axis,
            spacing: CGFloat = 0,
            distribution: UIStackView.Distribution = .fill,
            alignment: UIStackView.Alignment = .fill) -> (_ views: UIView...) -> UIStackView {
@@ -141,7 +141,7 @@ func stack(_ axis: NSLayoutConstraint.Axis,
     }
 }
 
-func stack(_ axis: NSLayoutConstraint.Axis,
+public func stack(_ axis: NSLayoutConstraint.Axis,
            spacing: CGFloat = 0,
            distribution: UIStackView.Distribution = .fill,
            alignment: UIStackView.Alignment = .fill,

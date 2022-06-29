@@ -1,3 +1,5 @@
+import UIKit
+
 public struct AnyBox {
     private let base: AnyBoxInternalBase
 

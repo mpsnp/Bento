@@ -1,15 +1,15 @@
 import UIKit
 
 extension UIEdgeInsets {
-    var horizontal: UIEdgeInsets {
+    public var horizontal: UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: left, bottom: 0, right: right)
     }
 
-    var verticalTotal: CGFloat {
+    public var verticalTotal: CGFloat {
         return top + bottom
     }
 
-    var horizontalTotal: CGFloat {
+    public var horizontalTotal: CGFloat {
         return left + right
     }
 }

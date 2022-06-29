@@ -1,4 +1,5 @@
 import FlexibleDiff
+import UIKit
 
 /// The adapter store which carries the component tree, and also cached sizing information if enabled.
 ///

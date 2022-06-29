@@ -1,3 +1,5 @@
+import UIKit
+
 internal protocol FocusEligibilitySource: AnyObject {
     func indexPathOfFocusableComponent(nextTo indexPath: IndexPath?, direction: FocusSearchDirection, skipsPopulatedComponents: Bool) -> IndexPath?
 }

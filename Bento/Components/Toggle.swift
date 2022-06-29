@@ -1,3 +1,4 @@
+import UIKit
 
 extension Component {
     public final class Toggle: AutoRenderable, HeightCustomizing {

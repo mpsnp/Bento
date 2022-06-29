@@ -1,24 +1,24 @@
 import UIKit
 
 extension NSLayoutConstraint {
-    func withPriority(_ priority: UILayoutPriority) -> NSLayoutConstraint {
+    public func withPriority(_ priority: UILayoutPriority) -> NSLayoutConstraint {
         self.priority = priority
         return self
     }
 
     @discardableResult
-    func activated() -> NSLayoutConstraint {
+    public func activated() -> NSLayoutConstraint {
         self.isActive = true
         return self
     }
 }
 
 extension UILayoutPriority {
-    static var cellRequired: UILayoutPriority {
+    public static var cellRequired: UILayoutPriority {
         return .required - 1.0
     }
 
-    static func - (priority: UILayoutPriority, value: Float) -> UILayoutPriority {
+    public static func - (priority: UILayoutPriority, value: Float) -> UILayoutPriority {
         return UILayoutPriority(rawValue: priority.rawValue - value)
     }
 }

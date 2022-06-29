@@ -1,4 +1,5 @@
 import UIKit
+@_exported import Common
 
 public final class AccessoryView: InteractiveView {
     public var accessory: Accessory = .none {

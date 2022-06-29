@@ -1,3 +1,5 @@
+import UIKit
+
 private let maxImageWidth: CGFloat = 100
 
 public extension Component {

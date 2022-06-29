@@ -1,3 +1,5 @@
+import UIKit
+
 public enum Supplement: Hashable {
     case header
     case footer

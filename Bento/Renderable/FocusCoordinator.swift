@@ -1,3 +1,5 @@
+import UIKit
+
 /// `FocusCoordinating` provides coordination of components to yield
 /// first responder status, and insights of its relative position among all
 /// first responder eligible components.

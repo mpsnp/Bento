@@ -1,3 +1,5 @@
+import UIKit
+
 internal protocol BentoContainerCell {
     var containedView: UIView? { get }
 }

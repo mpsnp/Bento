@@ -1,3 +1,5 @@
+import UIKit
+
 /// Declare that the view requires an extra layout pass before Auto Layout item sizing happens, so that height
 /// calculation for components containing free-form UI elements, e.g. text labels, would be correct.
 ///

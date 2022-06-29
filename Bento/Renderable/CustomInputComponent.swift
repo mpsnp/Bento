@@ -97,7 +97,7 @@ extension CustomInputComponent {
             _ = becomeFirstResponder()
         }
 
-        private func neighboringFocusEligibilityDidChange() {
+        func neighboringFocusEligibilityDidChange() {
             focusToolbar?.updateFocusEligibility(with: self)
             reloadInputViews()
         }

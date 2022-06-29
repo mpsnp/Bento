@@ -1,3 +1,6 @@
+import Foundation
+import UIKit
+
 /// Represent the root view of a `Focusable` component.
 @objc(BentoFocusableView)
 public protocol FocusableView: AnyObject {
